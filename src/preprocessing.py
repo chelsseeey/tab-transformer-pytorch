@@ -1,6 +1,8 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import numpy as np
+import seaborn as sns
+
 
 # 1. 데이터 파일 로드
 data_path = 'data/train.csv'

@@ -3,7 +3,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 import numpy as np
 
 # 1. 데이터 파일 로드
-data_path = 'data/train.csv'
+data_path = 'data/test.csv'
 df = pd.read_csv(data_path)
 
 # 2. 데이터 탐색 (EDA)
